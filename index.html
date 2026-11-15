@@ -1,13 +1,69 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>AI Across Borders</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap">
 <style>
-*{box-sizing:border-box}body{margin:0;background:#f5f4ed;color:#152d31;font:1.05rem/1.65 system-ui,sans-serif}a{color:#125551}header{background:#12393c;color:#fff;padding:clamp(2rem,7vw,6rem) 1.3rem}header a{color:#def9ee}.wrap{max-width:68rem;margin:auto}main,footer{padding:2rem 1.3rem}h1,h2,h3{font-family:Georgia,serif;line-height:1.1}h1{font-size:clamp(3rem,8vw,6.2rem);margin:.4em 0 .2em}h2{font-size:2.15rem}p{max-width:67ch}.episodes{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,22rem),1fr));gap:1.5rem}article{background:white;border-radius:16px;padding:1.35rem}article img{display:block;width:min(100%,13rem);height:auto;border-radius:8px}video{display:block;width:100%;margin-block:1rem;background:#12393c;border-radius:8px}section+section{margin-top:3rem}
-</style></head><body>
-<header><div class="wrap"><p>Penn State Behrend × Universidad Panamericana · Fall 2025</p><h1>AI Across Borders</h1><p>Students in Pennsylvania and Mexico City compared how they encounter AI in their daily lives and turned those conversations into podcasts.</p><a href="#episodes">Explore the student podcasts ↓</a></div></header>
-<main class="wrap">
-<section><h2>How the exchange worked</h2><p>Tiffany Petricini and Laura Trujillo-Liñán led a six-week Collaborative Online International Learning exchange through Penn State’s EDGE initiative. Students interviewed international partners, produced a podcast together, and reflected individually on how the exchange challenged their assumptions about AI.</p></section>
-<section id="episodes"><h2>Student podcasts</h2><div class="episodes">
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#fff;color:#14243b;font:1rem/1.65 "DM Sans",system-ui,sans-serif}
+a{color:#103e6a;text-underline-offset:.22em}a:focus-visible{outline:3px solid #9c3752;outline-offset:4px}
+.wrap{width:min(100% - 3rem,75rem);margin-inline:auto}
+.masthead{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:1rem;padding-block:1rem}
+.partner-marks{display:flex;flex-wrap:wrap;align-items:center;gap:.8rem 1.75rem;background:#fff}
+.partner-marks img{display:block;width:clamp(125px,21vw,190px);height:54px;object-fit:contain;object-position:left}
+.hero{display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:clamp(2rem,6vw,6rem);padding-block:clamp(2rem,6vw,5rem)}
+header{background:#fff;border-bottom:1px solid #d3dce4}
+h1,h2,h3{font-family:"Instrument Serif",Georgia,serif;line-height:1;font-weight:400;margin:0 0 .5em}
+h1{font-size:clamp(4.2rem,10vw,9rem);letter-spacing:-.045em;margin:.18em 0}
+h2{font-size:clamp(2.4rem,5vw,4.5rem);letter-spacing:-.025em}h3{font-size:2rem}
+.context,figcaption{font-size:.88rem;color:#46566a}.dek{font-size:clamp(1.25rem,2.5vw,1.75rem);line-height:1.35;max-width:29ch}
+figure{margin:0}figure img{display:block;width:100%;height:auto}figcaption{padding-top:.55rem}
+.hero-links,.project-nav{display:flex;align-items:center;flex-wrap:wrap;gap:.8rem 1.3rem}
+.paper-link{display:inline-block;background:#122c48;color:#fff;padding:.7rem 1rem;text-decoration:none}
+.project-nav{padding-block:1rem;border-bottom:1px solid #d3dce4;font-weight:700}
+main section{padding-block:clamp(2rem,6vw,5rem);border-bottom:1px solid #d3dce4}
+main p{max-width:68ch}.phases,.episodes,.lead-grid{display:grid;gap:clamp(1.25rem,4vw,3rem)}
+.phases{grid-template-columns:repeat(3,1fr);margin-top:2rem}
+.phases article{border-top:3px solid #9c3752;padding-top:1rem}
+.research{background:#edf3f8;padding-inline:clamp(1rem,5vw,4rem)}
+.lead-grid,.episodes{grid-template-columns:repeat(2,minmax(0,1fr))}
+.lead-grid article{display:grid;grid-template-columns:clamp(75px,14vw,125px) 1fr;gap:1rem;align-items:center}
+.lead-grid img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:top}
+.episodes article{border-top:2px solid #9c3752;padding-top:1rem}
+.episodes img{width:min(100%,9rem);height:auto;margin-bottom:1rem}.episodes video{display:block;width:100%;margin-block:1rem;background:#14243b}
+footer{padding-block:2rem}
+@media(max-width:700px){.hero,.phases,.lead-grid,.episodes{grid-template-columns:1fr}.hero figure{max-width:30rem}}
+.partner-marks a:first-child{display:flex;align-items:center;gap:.6rem;color:#001e44;font-weight:700;text-decoration:none}.partner-marks a:first-child img{width:42px;height:54px;object-fit:cover;object-position:left}.article-preview{display:grid;grid-template-columns:minmax(0,12rem) minmax(0,1fr);gap:1.5rem;align-items:center;margin-top:1.5rem}.article-preview img{display:block;width:100%;border:1px solid #bfcbd7}@media(max-width:530px){.article-preview{grid-template-columns:1fr}.article-preview img{max-width:12rem}}</style></head><body>
+<header>
+<div class="masthead wrap"><div class="partner-marks"><a href="https://behrend.psu.edu/"><img src="https://behrend.psu.edu/sites/behrend/files/logos/PSU_EBO_RGB_2C.svg" alt=""><span>Penn State Behrend</span></a><a href="https://www.up.edu.mx/"><img src="https://www.up.edu.mx/wp-content/uploads/2026/11/Logotipo-UniversidadPanamericana.png" alt="Universidad Panamericana"></a></div><a href="https://tiffanypetricini.com/">Tiffany Petricini</a></div>
+<div class="hero wrap">
+<div><p class="context">Pennsylvania ↔ Mexico City · Fall 2025</p><h1>AI Across<br>Borders</h1>
+<p class="dek">What happens when students in two countries compare how AI shapes their lives?</p>
+<div class="hero-links"><a class="paper-link" href="https://doi.org/10.1515/omgc-2026-0018">Read the published study ↗</a><a href="#episodes">Listen to the student podcasts ↓</a></div></div>
+<figure><img src="noah-mia-luciano.png" alt="Student artwork with microphones and imagery from Mexico and the United States" width="1024" height="1024"><figcaption>Podcast artwork by Noah Gabreski, Mia, and Luciano</figcaption></figure>
+</div></header>
+<nav class="wrap project-nav" aria-label="On this page"><a href="#exchange">The exchange</a><a href="#method">Teaching model</a><a href="#research">Research</a><a href="#episodes">Student podcasts</a></nav><main class="wrap">
+<section id="exchange"><h2>How the exchange worked</h2><p>Tiffany Petricini and Laura Trujillo-Liñán led a six-week Collaborative Online International Learning exchange through Penn State’s EDGE initiative. Students interviewed international partners, produced a podcast together, and reflected individually on how the exchange challenged their assumptions about AI.</p></section>
+<section id="method"><h2>From first conversation to final podcast</h2>
+<p>The exchange uses three phases to help students notice how language, institutional rules, and access shape what people do with AI.</p>
+<div class="phases">
+<article><h3>Immersion</h3><p>Start by examining the AI tools, rules, and assumptions that shape your own coursework and daily life.</p></article>
+<article><h3>Encounter</h3><p>Interview a partner at the other university. Compare concrete experiences, then plan and record a podcast together.</p></article>
+<article><h3>Reflection</h3><p>Revisit one assumption from the start of the exchange. Identify a specific moment in the conversation that changed how you understood it.</p></article>
+</div></section>
+<section id="research" class="research"><h2>Similar confidence, different conditions</h2>
+<p>In the published study, students in the two cohorts reported similar confidence in using AI. Their prior exposure and routine use differed. The authors use media ecology to explain why confidence alone tells us little about the language, infrastructure, and institutional expectations that shape students’ choices.</p>
+<p>In a separate class debrief, students noted shared concerns about privacy, misinformation, and academic integrity. Their reflections also brought out practical differences, including subscription prices, university AI policies, and how tools handled regional Spanish.</p>
+<p><strong>For educators:</strong> Give partners a shared scheduling window and an asynchronous option. Ask each student to anchor their reflection in something their partner actually said.</p>
+<p><cite>Petricini, T. A., Trujillo-Liñán, L., &amp; Meneses-Trujillo, R. (2026). AI across borders: COIL pedagogy, media ecology, and intercultural AI literacy in the postdigital classroom. Online Media and Global Communication.</cite></p>
+<div class="article-preview">
+<a href="ai-across-borders-article.pdf" aria-label="Open the full article PDF"><img src="article-first-page.webp" alt="First page of the published AI Across Borders article" loading="lazy"></a>
+<div><h3>Read the published article</h3><p>Open the first-page preview to read the full PDF, or download a copy.</p>
+<p><a class="paper-link" href="ai-across-borders-article.pdf" download>Download PDF</a></p>
+<p><a href="https://doi.org/10.1515/omgc-2026-0018">Publisher’s version</a> · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></div>
+</div>
+</section><section id="leads"><h2>Exchange leads</h2><div class="lead-grid">
+<article><img src="tiffany-petricini.jpg" alt="Tiffany A. Petricini" loading="lazy"><div><h3>Tiffany A. Petricini</h3><p>Associate Teaching Professor of Communication<br>Penn State Behrend</p></div></article>
+<article><img src="https://www.up.edu.mx/wp-content/uploads/2023/01/laura-trujillo.jpg" alt="Laura Trujillo-Liñán" loading="lazy"><div><h3>Laura Trujillo-Liñán</h3><p>Professor and researcher in humanities, communication, and philosophy<br>Universidad Panamericana</p></div></article>
+</div></section><section id="episodes"><h2>Student podcasts</h2><div class="episodes">
 <article><img src="noah-mia-luciano.png" alt="Student cover art for AI Across Borders"><h3>AI Across Borders</h3><p>Noah Gabreski, Mia, and Luciano · 10:32</p><video controls playsinline preload="none" poster="noah-mia-luciano.png" aria-label="AI Across Borders"><source src="https://tiffanypetricini.com/assets/portfolio/podcasts/noah-mia-luciano.mp4" type="video/mp4"></video><a href="https://tiffanypetricini.com/assets/portfolio/podcasts/noah-mia-luciano.mp4">Open episode</a></article>
 <article><img src="ashly-sofia.png" alt="Student cover art for AI Through Different Lenses"><h3>AI Through Different Lenses</h3><p>Ashly Meeker and Sofía Peña · 9:47</p><video controls playsinline preload="none" poster="ashly-sofia.png" aria-label="AI Through Different Lenses"><source src="https://tiffanypetricini.com/assets/portfolio/podcasts/ashly-sofia.mp4" type="video/mp4"></video><a href="https://tiffanypetricini.com/assets/portfolio/podcasts/ashly-sofia.mp4">Open episode</a> · <a href="https://tiffanypetricini.com/assets/portfolio/podcasts/ai-through-different-lenses-blurb.pdf">Read the episode blurb (PDF)</a></article>
 </div></section>
